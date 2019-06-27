@@ -1,0 +1,75 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: yellow;
+  height: 80px;
+}
+
+main {
+  text-align: center;
+  max-width: 75%;
+  margin: 80px auto 0 auto;
+}
+
+.burger-outer {
+  position: relative;
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 0, 0, 0);
+  transition: background-color 0.25s;
+}
+
+.burger-inner {
+  position: relative;
+  margin: 8px auto;
+  border: solid 2px black;
+  width: 50%;
+  height: 0px;
+  transition: background-color 0.25s;
+
+}
+
+.burger-outer:hover {
+  background-color: rgb(224, 188, 188);
+}
+
+.burger-outer:active {
+  outline: solid red 2px;
+}
+
+
+main nav a {
+  text-decoration: none;
+  display: block;
+  font-size: 2rem;
+}
+
+main nav a:hover {
+  color: white;
+}
+
+.menu {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(236, 185, 236);
+}
+
+.back-button {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 4rem;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  color: white; `
+}
